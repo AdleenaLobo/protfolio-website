@@ -63,7 +63,6 @@ function addElemToHtml(
   innerElements2
 ) {
   let project = document.getElementById("projects");
-  console.log(innerElements1.src);
   if (innerElements1.src == undefined) {
     wrapText.appendChild(innerElements1);
     outerdiv.appendChild(wrapText);
