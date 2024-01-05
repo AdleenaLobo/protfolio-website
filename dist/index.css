@@ -98,3 +98,16 @@ body {
 #contact-header {
   border-bottom: 1px solid rgba(128, 128, 128, 0.417);
 }
+
+#project-content {
+  margin: 5%;
+  border: 1px solid rgba(128, 128, 128, 0.417);
+  border-radius: 10px;
+  padding: 5%;
+  display: flex;
+  gap: 2%;
+}
+#project-content:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.189);
+}
