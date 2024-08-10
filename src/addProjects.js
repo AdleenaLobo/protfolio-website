@@ -26,7 +26,8 @@ function createDivs(varB) {
       link.href = "https://adleenalobo.github.io/tic_tac_toe/dist/index.html";
       innerElements1.setAttribute("src", TicTacToe);
       innerElements2.textContent =
-        "tic tac toe game website built. In this game the user has 2 options , 1.To play with a human opponent and 2.To play with an AI.";
+        `- The classic tic tac toe game that can be played against a computer or a human.
+- The purpose of building this game was to challenge myself to build an interactive web application using Figma designs provided by Frontend mentor.`;
       header.textContent = "TIC-TAC-TOE";
       header.classList.add("projects-header");
       addElemToHtml(link, outerdiv, innerElements1, innerElements2,header);
@@ -34,8 +35,8 @@ function createDivs(varB) {
     } else if (varB == "weather") {
       link.href = "https://adleenalobo.github.io/weather_app/dist/index";
       innerElements1.setAttribute("src", weather);
-      innerElements2.textContent =
-        "A weather forecasting app  , here one can search a city and the  current weather will be displayed.One can toggle the temperature to farenhiet or celsius and that state saved so even when one reloads the page it will be on the last toggled mode.This website has been built using weather api.";
+      innerElements2.textContent =`- A simple web application to display current weather information of any city in the world.
+      - The purpose of this appplication was to test my web development skills and to learn more about webpack and the storage APIs provided by browsers.`;
         header.textContent = "WEATHER";
         header.classList.add("projects-header");
       addElemToHtml(link, outerdiv, innerElements1, innerElements2,header);
